@@ -6,3 +6,5 @@
 # The file name is "2017 BRFSS Data (SAS Transport Format) Cdc-zip"
 
 # After downloading, unzip it. You would get "LLCP2017.XPT". Change it to lower characters: "llcp2017.xpt" 
+
+# Also, when you "git push", exclude llcp2017.xpt
