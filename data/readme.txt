@@ -4,7 +4,7 @@
  - https://www.cdc.gov/brfss/annual_data/annual_2017.html
 
 # The file name is "2017 BRFSS Data (SAS Transport Format) Cdc-zip[ZIP – 101 MB]".
- - The link address is:
+ - The link address for downloading is:
  - https://www.cdc.gov/brfss/annual_data/2017/files/LLCP2017XPT.zip
 
 # After downloading, unzip "LLCP2017XPT.zip". You would get "LLCP2017.XPT". Change it to lower characters: "llcp2017.xpt" 
