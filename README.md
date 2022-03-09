@@ -1,5 +1,13 @@
 # eco395m-midterm-project---diabetes
 
+## Group Members
+- Ashesh Shrestha
+- Rishab Agarwal
+- Seungwoon Shin
+- Xiaohan Wu
+- Youngseok Yim
+
+
 ## Data Source 
 - The Behavioral Risk Factor Surveillance System (BRFSS) by the Centers for Disease Control and Prevention(CDC)
 - BRSFF conducts health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. The current format started in 2011 with more than 500,000 interviews conducted in the states, the District of Columbia, participating U.S. territories, and other geographic areas.
