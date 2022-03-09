@@ -53,12 +53,12 @@
 
 
 ## Instructions to rerun that analysis
-#### Data download and cleaning
-1. Download "2017 BRFSS Data (SAS Transport Format)" from https://www.cdc.gov/brfss/annual_data/annual_2017.html
-2. Unzip the download, and you will get "LLCP2017.XPT". Rename the file by lowercase the letters to "llcp2017.xpt".
-3. The xpt file is 1.29 GB big. When you import and run the file, make sure your system can handle the size of the file.
-4. Run "data_importing_and_cleaning.ipynb" in "code" folder.
-5. You will get "2017_diabetes_healthindicators" in the "data" folder.
+#### Original Data Acquisition (folder data)
+1. Download "2017 BRFSS Data (SAS Transport Format)" from https://www.cdc.gov/brfss/annual_data/annual_2017.html based on the original_data_download_instruction.txt file in "original data" folder.
+2. Unzip the downloaded zip file, and you will get "LLCP2017.XPT". Rename the file by lowercase the letters to "llcp2017.xpt". Please move this file into the local cloned project folder eco395m-midterm-project---diabetes/data" for preparation. However, never git-push the "llcp2017.xpt" since it's not small enough to be uploaded.
+3. The xpt file is 1.29 GB big. When you import and run the file, please make sure your system can handle the size of the file.
+4. Run "data_importing_and_cleaning.ipynb" in "step1 data cleaning" folder. 
+5. You will get "2017_diabetes_cleaned.csv" in the "data" folder.
 
 #### Data analysis
 1. run "xxx.ipynb"
