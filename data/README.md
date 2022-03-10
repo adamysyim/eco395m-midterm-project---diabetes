@@ -5,6 +5,6 @@
  - The original data's downloading method is introduced in the original_data_download_instruction.txt file.
 
 ### codebook17_llcp-v2-508.pdf
- - The codebook for the original dataset downlaoded from CDC websit.
+ - The codebook for the original dataset downlaoded from CDC website.
 
 ### 
