@@ -12,3 +12,7 @@
  
 ### 2017_diabetes_cleaned_vld.csv
  - The cleaned dataset excluding potential invalid samples we got after performing the step2 summary statistics.
+ 
+### step_0_list_of_selected_variable.csv
+ - The introduction for the 14 variables we selected from the original data, and the matched cleaned variables.
+
