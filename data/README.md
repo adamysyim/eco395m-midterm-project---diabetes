@@ -7,4 +7,5 @@
 ### codebook17_llcp-v2-508.pdf
  - The codebook for the original dataset downlaoded from CDC website.
 
-### 
+### 2017_diabetes_cleaned.csv
+ - The cleaned dataset we got after performing the step1 data cleaning.
