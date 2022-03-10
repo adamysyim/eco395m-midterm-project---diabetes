@@ -14,6 +14,6 @@ Behavioral factors,Food intake,FRUTDA2_,frutda,Total fruits consumed per day,"In
 Behavioral factors,Alcohol,_RFDRHV5,hvdr,Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week),"In Codebook, search""_RFDRHV5""","0 for not heavy drinker, 1 for being heavy drinker",Categorical,independent
 Behavioral factors,Smoking,_RFSMOK3,smok,Adults who are current smokers,"In Codebook, search""_RFSMOK3""","0 for not current a smoker, 1 for being a smoker",Categorical,independent
 Demography,Income,_INCOMG,incom50,"Is your annual household income from all sources: (If respondent refuses at any income level, code ´Refused.´)","In Codebook, search""_INCOMG""","0 for less than $50,000, 1 for more than $50,000",Categorical,independent
-Demography,Education,_EDUCAG,cllgatt,Level of education completed,"In Codebook, search""_EDUCAG""","0 for not attended college or techinical school, 1 for have attended college/techinical school",Categorical,independent
+Demography,Education,_EDUCAG,cllgr,Level of education completed,"In Codebook, search""_EDUCAG""","0 for not graduated college or techinical school, 1 for have graduated college/techinical school",Categorical,independent
 Demography,Sex,SEX,sex,Indicate sex of respondent.,"In Codebook, search""SEX""","0 for male, 1 for female",Categorical,independent
 Demography,Age,_AGE65YR,age65,Two-level age category,"In Codebook, search""_AGE65YR""","0 for age 18-64, 1 for age 65+ (including 65)",Categorical,independent
