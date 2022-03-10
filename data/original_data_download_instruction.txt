@@ -7,8 +7,8 @@
  - The link address for downloading is:
  - https://www.cdc.gov/brfss/annual_data/2017/files/LLCP2017XPT.zip
 
-# After downloading, unzip "LLCP2017XPT.zip". You would get "LLCP2017.XPT". Change it to lower characters: "llcp2017.xpt" 
+# After downloading, unzip "LLCP2017XPT.zip". You would get "LLCP2017.XPT". 
 
-# Also, when you "git push", exclude llcp2017.xpt
+# Please put this "LLCP2017.XPT" file into the GCP Vertex AI project folder "data" to run the cleanng code in the next step.
 
-# Please put this "llcp2017.xpt: file into the local project folder "data" to run the cleanng code in the next step.
+# Also, when you "git push", exclude "LLCP2017.XPT". Put it under the "Untracked" category.
