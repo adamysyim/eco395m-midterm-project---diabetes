@@ -64,7 +64,7 @@
 3. The XPT file is 1.29 GB big. When you import and run the file, please make sure your system can handle the size of the file.
 
 #### Step0 Variable Selection
-1. Based on the codebook and our common sense, we manually selected 18 variables (including 1 dependent variable and 17 independent variables candidates). The detailed info is shown in the list_of_selected_variables.csv file in step0 folder.
+1. Based on the codebook and our common sense, we manually selected 18 variables (including 1 dependent variable and 17 independent variables candidates). The detailed info is shown in the list_of_selected_variable.csv file in step0 folder.
 
 #### Step1 Data Cleaning
 1. Run "data_importing_and_cleaning.ipynb" in "step1 data cleaning" folder. 
