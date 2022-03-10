@@ -53,9 +53,14 @@
 
 
 ## Instructions to rerun that analysis
-#### Original Data Acquisition (folder data)
+
+#### Environment and Setup
+1. Open the GCP VErtex AI. Choose the Jupyter Lab.
+2. Fork and Git-Clone this respiratory into the Jupyter Lab.
+
+#### Data Acquisition
 1. Download "2017 BRFSS Data (SAS Transport Format)" from https://www.cdc.gov/brfss/annual_data/annual_2017.html based on the original_data_download_instruction.txt file in "data" folder.
-2. Unzip the downloaded zip file, and you will get "LLCP2017.XPT". Please move this file into the local cloned project folder "eco395m-midterm-project---diabetes/data" for preparation. However, never git-push the "LLCP2017.XPT" since it's not small enough to be uploaded.
+2. Unzip the downloaded zip file, and you will get "LLCP2017.XPT". Please upload this file into the project folder "eco395m-midterm-project---diabetes/data" in the GCP environment for preparation. The uploading process may take about 30 minutes due to the large size of the file. What is more, never git-push the "LLCP2017.XPT" since it's not small enough to be uploaded. Put the 'LLCP2017.XPT" file in the untracked category in the Jupyter Lab window.
 3. The XPT file is 1.29 GB big. When you import and run the file, please make sure your system can handle the size of the file.
 4. Run "data_importing_and_cleaning.ipynb" in "step1 data cleaning" folder. 
 5. You will get "2017_diabetes_cleaned.csv" in the "data" folder.
