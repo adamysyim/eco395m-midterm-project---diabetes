@@ -9,3 +9,6 @@
 
 ### 2017_diabetes_cleaned.csv
  - The cleaned dataset we got after performing the step1 data cleaning.
+ 
+### 2017_diabetes_cleaned_vld.csv
+ - The cleaned dataset excluding potential invalid samples we got after performing the step2 summary statistics.

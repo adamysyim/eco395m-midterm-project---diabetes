@@ -71,4 +71,6 @@
 2. You will get "2017_diabetes_cleaned.csv" in the "data" folder.
 
 #### Step2 Summary Statistics
-1. run "xxx.ipynb"
+1. run "summary_statistics.ipynb" in "step2 summary statistics" folder.
+2. You will get summary statistics of the 18 selected variables.
+2. You will get "2017_diabetes_cleaned_vld.csv" (cleaned dataset without potential invalid samples) in the "data" folder.
