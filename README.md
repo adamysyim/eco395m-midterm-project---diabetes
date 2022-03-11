@@ -67,10 +67,13 @@
 1. Based on the codebook and our common sense, we manually selected 14 variables (including 1 dependent variable and 13 independent variables candidates). The detailed info is shown in the step_0_list_of_selected_variable.csv file in "data" folder.
 
 #### Step1 Data Cleaning
-1. Run "data_importing_and_cleaning.ipynb" in "code" folder. 
+1. Run "step_1_data_importing_and_cleaning.ipynb" in "code" folder. 
 2. You will get "2017_diabetes_cleaned.csv" in the "data" folder.
 
 #### Step2 Summary Statistics
-1. run "summary_statistics.ipynb" in "code" folder.
-2. You will get summary statistics of the 14 selected variables.
+1. run "step_2_summary_statistics.ipynb" in "code" folder.
 2. You will get "2017_diabetes_cleaned_vld.csv" (cleaned dataset without potential invalid samples) in the "data" folder.
+3. You will get summary statistics of the 14 selected variables.
+
+#### Step3 Data analysis & Model Selection
+1. run "step_3_data_analysis_and_model_selection.ipynb" in "code" folder.
