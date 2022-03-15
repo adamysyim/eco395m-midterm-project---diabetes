@@ -74,4 +74,4 @@
 1. Run "step_2_summary_statistics.ipynb" in "code" folder. You will get "2017_diabetes_cleaned_vld.csv" (cleaned dataset without potential invalid samples) in the "data" folder. You will get summary statistics of the 14 selected variables.
 
 #### Step3 Data analysis & Model Selection
-1. Run "step_3_data_analysis_and_model_selection.ipynb" in "code" folder.
+1. Run "step_3_data_analysis_and_model_selection.ipynb" in "code" folder. You will get the data analysis and the model selection process for the dataset from "2017_diabetes_cleaned_vld.csv".
