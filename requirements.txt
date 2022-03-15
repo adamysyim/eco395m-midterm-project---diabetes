@@ -3,3 +3,8 @@
 
 #### Seaborn
  - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+ 
+#### matplotlib_venn
+
+#### bioinfokit
+Run "pip install bioinfokit==0.3" to install the package
