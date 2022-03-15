@@ -63,6 +63,9 @@
 2. Unzip the downloaded zip file, and you will get "LLCP2017.XPT". Please upload this file into the project folder "eco395m-midterm-project---diabetes/data" in the GCP environment for preparation. The uploading process may take about 30 minutes due to the large size of the file. What is more, never git-push the "LLCP2017.XPT" since it's not small enough to be uploaded. Put the 'LLCP2017.XPT" file in the untracked category in the Jupyter Lab window.
 3. The XPT file is 1.29 GB big. When you import and run the file, please make sure your system can handle the size of the file.
 
+#### Requirementts of Python Packages, Modules, and Toolkits
+1. Install all the required packages, modules, and toolkits listed in "requirements.txt" file.
+
 #### Step0 Variable Selection & Data Overlook
 1. Based on the codebook and our common sense, we manually selected 14 variables (including 1 dependent variable and 13 independent variables candidates). The detailed info is shown in the step_0_list_of_selected_variable.csv file in "data" folder.
 2. Run "step_0_data_overlook.ipynb" in "code" folder. You will get the overlook of the categorical variables in the whole uncleaned dataset.
