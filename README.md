@@ -85,17 +85,18 @@ The closer area under the curve(AUC) is to 1, the better the model. And our mode
 2. Unzip the downloaded zip file, and you will get "LLCP2017.XPT". Please upload this file into the project folder "eco395m-midterm-project---diabetes/data" in the GCP environment for preparation. The uploading process may take about 30 minutes due to the large size of the file. What is more, never git-push the "LLCP2017.XPT" since it's not small enough to be uploaded. Put the 'LLCP2017.XPT" file in the untracked category in the Jupyter Lab window.
 3. The XPT file is 1.29 GB big. When you import and run the file, please make sure your system can handle the size of the file.
 
-#### Step0 Variable Selection
+#### Requirementts of Python Packages, Modules, and Toolkits
+1. Install all the required packages, modules, and toolkits listed in "requirements.txt" file.
+
+#### Step0 Variable Selection & Data Overlook
 1. Based on the codebook and our common sense, we manually selected 14 variables (including 1 dependent variable and 13 independent variables candidates). The detailed info is shown in the step_0_list_of_selected_variable.csv file in "data" folder.
+2. Run "step_0_data_overlook.ipynb" in "code" folder. You will get the overlook of the categorical variables in the whole uncleaned dataset.
 
 #### Step1 Data Cleaning
-1. Run "step_1_data_importing_and_cleaning.ipynb" in "code" folder. 
-2. You will get "2017_diabetes_cleaned.csv" in the "data" folder.
+1. Run "step_1_data_importing_and_cleaning.ipynb" in "code" folder. You will get "2017_diabetes_cleaned.csv" in the "data" folder for the regression analysis.
 
 #### Step2 Summary Statistics
-1. run "step_2_summary_statistics.ipynb" in "code" folder.
-2. You will get "2017_diabetes_cleaned_vld.csv" (cleaned dataset without potential invalid samples) in the "data" folder.
-3. You will get summary statistics of the 14 selected variables.
+1. Run "step_2_summary_statistics.ipynb" in "code" folder. You will get "2017_diabetes_cleaned_vld.csv" (cleaned dataset without potential invalid samples) in the "data" folder. You will get summary statistics of the 14 selected variables.
 
 #### Step3 Data analysis & Model Selection
-1. run "step_3_data_analysis_and_model_selection.ipynb" in "code" folder.
+1. Run "step_3_data_analysis_and_model_selection.ipynb" in "code" folder. You will get the data analysis and the model selection process for the dataset from "2017_diabetes_cleaned_vld.csv".

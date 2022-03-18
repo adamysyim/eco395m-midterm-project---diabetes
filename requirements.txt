@@ -1,5 +1,25 @@
-#### matplotlib.pyplot
+#### matplotlib 
+ - matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.
+
  - matplotlib.pyplot is a state-based interface to matplotlib. It provides an implicit, MATLAB-like, way of plotting. It also opens figures on your screen, and acts as the figure GUI manager. pyplot is mainly intended for interactive plots and simple cases of programmatic plot generation.
 
-#### Seaborn
+#### matplotlib-venn
+ - Functions for plotting area-proportional two- and three-way Venn diagrams in matplotlib.
+
+#### numpy
+ - The fundamental package for scientific computing with Python.
+
+#### seaborn
  - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+ 
+#### sklearn
+ - Simple and efficient Python machine learning tools for predictive data analysis. It is built on NumPy, SciPy, and matplotlib. 
+ 
+#### bioinfokit
+ - The bioinfokit toolkit aimed to provide various easy-to-use functionalities to analyze, visualize, and interpret the biological data generated from genome-scale omics experiments.
+ 
+#### imblearn
+ - Toolbox for imbalanced dataset in machine learning.
+ 
+#### statsmodels 
+ - This is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration.
