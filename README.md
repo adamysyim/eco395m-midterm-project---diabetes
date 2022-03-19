@@ -100,3 +100,4 @@ The closer area under the curve(AUC) is to 1, the better the model. And our mode
 
 #### Step3 Data analysis & Model Selection
 1. Run "step_3_data_analysis_and_model_selection.ipynb" in "code" folder. You will get the data analysis and the model selection process for the dataset from "2017_diabetes_cleaned_vld.csv".
+2. Run "step_3_substep_ensemble_methods.ipynb" in "code" folder. You will get the additional model selection process.
