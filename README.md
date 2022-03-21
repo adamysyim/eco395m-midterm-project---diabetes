@@ -75,7 +75,7 @@ The closer area under the curve(AUC) is to 1, the better the model. And our mode
 
 Odd ratio roughly means that the statistical tendency of diabetes with the specific factor is greater by the probability of the value than the tendency of non-diabetes without the specific factor. 
 
-### Findings from the Odd Ratios
+### Findings from Odd Ratios
  #### Medical Risk Factors
   - There is 1.56 times tendency of having diabetes if you have heart conditions(michd). 
   - There is 1.80 times tendency of having diabetes if you have high cholesterol(hchol).
@@ -97,7 +97,7 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
 ### Limitations of the data and the analysis
   - One of the lifestyle factors that we wanted to analyze was the food intake such as vegetables, fruit juice, etc. The original survey contains those data. For example, "Total vegetables consumed per day", "Total fruits consumed per day", "How often did you eat any kind of fried potatoes, including french fries, home fries, or hash browns?". However, the numbers contain too many extreme values that cannot be modified to get valid statistics. We dropped those variables. It is possible that many respondents misunderstood the questions and the interviewer didn't intervene to correct the answers.
   - Heavy drinker(hvdr), one of the medical risk factors, is measured differently by gender. The original survey measured 14 drinks per weeks for men and 7 drinks per weeks for women. This inconsistent measurement could be the reason why we have the result against conventional wisdom that more drinks cause higher chances of diabetes.
-  - Odd ratio of bmi and vpa are not remarkable factors than we expected. 
+  - bmi and vpa from odd ratio are not remarkable factors than we expected. 
   - The data itself does not include the factor of racial differences though diabetes is linked to the racial factor for genetic reasons. (Reference: https://www.webmd.com/diabetes/type-two-diabetes-race)
   - Odd ratio is not the same as the concept of relative risk. While relative risk compares probabilities which implying causality, odd ratio is limited to show causality in a sense that it is about the tendency of the probability between two groups. This is largely because the data itself cannot represent the whole population. Therefore, the findings above cannot be used to elucidate causality of having diabetes. Namely, the conclusion is not perfect answer to research questions.
 
