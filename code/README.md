@@ -1,4 +1,4 @@
-## Information for the files in step1 data cleaning folder:
+## Information for the files in code folder:
 
 ### step_0_data_overlook.ipynb
 
@@ -11,3 +11,6 @@
  
  ### step_3_data_analysis.ipynb
  - Read the data 2017_diabetes_cleaned_vld.csv in data folder, and perform the data anysis and model selection for the dataset.
+
+### step_3_substep_ensemble_methods.ipynb
+ - Read the data 2017_diabetes_cleaned_vld.csv in data folder, and perform some additional models as the research extensions.
