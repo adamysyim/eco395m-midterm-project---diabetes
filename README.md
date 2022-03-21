@@ -71,8 +71,9 @@ The closer area under the curve(AUC) is to 1, the better the model. And our mode
 ### Limitations of the data
   - One of the lifestyle factors that we wanted to analyze was the food intake such as vegetables, fruitjuice, etc. The original survey contains those data. For example, "Total vegetables consumed per day", "Total fruits consumed per day", "How often did you eat any kind of fried potatoes, including french fries, home fries, or hash browns?". However, the numbers contain too many extreme values that cannot be modified to get valid statistics. We dropped those variables. It is possible that many respondents misunderstood the questions and the interviewer didn't intervene to correct the answers.
 
-### limitations of the analysis and Areas for more research 
+### Limitations of the analysis and Areas for more research 
   - According to the Odd Ratio, drinking(hvdr) and smoking(smok) seem to have reverse relationship with the diabetes. However, many medical studies show the opposite: if you drink or smoke, you would have higher chance of getting diabetes. The reverse relationship we obtained is due to the features of our cross-sectional data: cross-sectional data is simply a snapshot of samples in certain point in time. In order to elaborately examine the relationship we need a follow-up studies which traces smoking or alcohol intake behaviors of the subjects for certain time periods.
+
 
 ## Instructions to rerun that analysis
 
