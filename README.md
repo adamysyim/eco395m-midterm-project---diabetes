@@ -76,10 +76,10 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
 #### Conclusion
 
   - What lifestyle factors, such as physical exercise, smoking/alcohol, are most related to diabetes?
-→ Earning annual income of $ 50,000 or more is the most related lifestyle factor to prevent diabetes.
+   * → Earning annual income of $ 50,000 or more is the most related lifestyle factor to prevent diabetes.
 
   - What medical risk factors are most related to diabetes? 
-→ High blood pressure is the most related risk factor to have diabetes.
+   * → High blood pressure is the most related risk factor to have diabetes.
 
 
 ### Limitations of the data and the analysis
@@ -94,6 +94,34 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
   - According to the Odd Ratio, drinking(hvdr) and smoking(smok) seem to have reverse relationship with the diabetes. However, many medical studies show the opposite: if you drink or smoke, you would have higher chance of getting diabetes. The reverse relationship we obtained is due to the features of our cross-sectional data: cross-sectional data is simply a snapshot of samples in certain point in time. In order to elaborately examine the relationship, we need a follow-up studies which traces smoking or alcohol intake behaviors of the subjects for certain time periods.
   - The same data that added racial factors could show interesting results. For instance, we might have the analysis like: Asians are critically affected by BMI factor to have diabetes while Blacks are less influenced by BMI factor.
   - Referring the other countries' data of diabetes could give new insights regarding correlation between factors and diabetes. 
+
+
+#### Conclusion
+
+  - What lifestyle factors, such as physical exercise, smoking/alcohol, are most related to diabetes?
+    → Earning annual income of $ 50,000 or more is the most related lifestyle factor to prevent diabetes.
+
+  - What medical risk factors are most related to diabetes? 
+    → High blood pressure is the most related risk factor to have diabetes.
+
+
+### Limitations of the data and the analysis
+  - One of the lifestyle factors that we wanted to analyze was the food intake such as vegetables, fruit juice, etc. The original survey contains those data. For example, "Total vegetables consumed per day", "Total fruits consumed per day", "How often did you eat any kind of fried potatoes, including french fries, home fries, or hash browns?". However, the numbers contain too many extreme values that cannot be modified to get valid statistics. We dropped those variables. It is possible that many respondents misunderstood the questions and the interviewer didn't intervene to correct the answers.
+  - Heavy drinker(hvdr), one of the medical risk factors, is measured differently by gender. The original survey measured 14 drinks per weeks for men and 7 drinks per weeks for women. This inconsistent measurement could be the reason why we have the result against conventional wisdom that more drinks cause higher chances of diabetes.
+  - Odd ratio of bmi and vpa is not remarkable. 
+  - The data itself does not include the factor of racial differences though diabetes is linked to the racial factor for genetic reasons. (Reference: https://www.webmd.com/diabetes/type-two-diabetes-race)
+  - Odd ratio is not the same as the concept of relative risk. While relative risk compares probabilities which implying causality, odd ratio is limited to show causality in a sense that it is about the tendency of the probability between two groups. This is largely because the data itself cannot represents whole population. Therefore, the findings above cannot be used to elucidate causality of having diabetes. Namely, the conclusion is not perfect answer to research questions.
+
+
+### Suggestion to improve the analysis for future research 
+  - According to the Odd Ratio, drinking(hvdr) and smoking(smok) seem to have reverse relationship with the diabetes. However, many medical studies show the opposite: if you drink or smoke, you would have higher chance of getting diabetes. The reverse relationship we obtained is due to the features of our cross-sectional data: cross-sectional data is simply a snapshot of samples in certain point in time. In order to elaborately examine the relationship, we need a follow-up studies which traces smoking or alcohol intake behaviors of the subjects for certain time periods.
+  - The same data that added racial factors could show interesting results. For instance, we might have the analysis like: Asians are critically affected by BMI factor to have diabetes while Blacks are less influenced by BMI factor.
+  - Referring the other countries' data of diabetes could give new insights regarding correlation between factors and diabetes. 
+
+
+### Limitations of the analysis and Areas for more research 
+  - According to the Odd Ratio, drinking(hvdr) and smoking(smok) seem to have reverse relationship with the diabetes. However, many medical studies show the opposite: if you drink or smoke, you would have higher chance of getting diabetes. The reverse relationship we obtained is due to the features of our cross-sectional data: cross-sectional data is simply a snapshot of samples in certain point in time. In order to elaborately examine the relationship we need a follow-up studies which traces smoking or alcohol intake behaviors of the subjects for certain time periods.
+
 
 
 ## Instructions to rerun that analysis
