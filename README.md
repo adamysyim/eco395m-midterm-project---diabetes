@@ -87,7 +87,7 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
   - Heavy drinker(hvdr), one of the medical risk factors, is measured differently by gender. The original survey measured 14 drinks per weeks for men and 7 drinks per weeks for women. This inconsistent measurement could be the reason why we have the result against conventional wisdom that more drinks cause higher chances of diabetes.
   - Odd ratio of bmi and vpa are not remarkable factors than we expected. 
   - The data itself does not include the factor of racial differences though diabetes is linked to the racial factor for genetic reasons. (Reference: https://www.webmd.com/diabetes/type-two-diabetes-race)
-  - Odd ratio is not the same as the concept of relative risk. While relative risk compares probabilities which implying causality, odd ratio is limited to show causality in a sense that it is about the tendency of the probability between two groups. This is largely because the data itself cannot represents whole population. Therefore, the findings above cannot be used to elucidate causality of having diabetes. Namely, the conclusion is not perfect answer to research questions.
+  - Odd ratio is not the same as the concept of relative risk. While relative risk compares probabilities which implying causality, odd ratio is limited to show causality in a sense that it is about the tendency of the probability between two groups. This is largely because the data itself cannot represent the whole population. Therefore, the findings above cannot be used to elucidate causality of having diabetes. Namely, the conclusion is not perfect answer to research questions.
 
 
 ### Suggestion to improve the analysis for future research 
