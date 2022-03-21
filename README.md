@@ -102,7 +102,7 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
   - Odd ratio is not the same as the concept of relative risk. While relative risk compares probabilities which implying causality, odd ratio is limited to show causality in a sense that it is about the tendency of the probability between two groups. This is largely because the data itself cannot represent the whole population. Therefore, the findings above cannot be used to elucidate causality of having diabetes. Namely, the conclusion is not perfect answer to research questions.
 
 
-### Suggestion to improve the analysis for future research 
+### Suggestion to improve the analysis for the future research 
   - According to the Odd Ratio, drinking(hvdr) and smoking(smok) seem to have reverse relationship with the diabetes. However, many medical studies show the opposite: if you drink or smoke, you would have higher chance of getting diabetes. The reverse relationship we obtained is due to the features of our cross-sectional data: cross-sectional data is simply a snapshot of samples in certain point in time. In order to elaborately examine the relationship, we need a follow-up studies which traces smoking or alcohol intake behaviors of the subjects for certain time periods.
   - The same data that added racial factors could show interesting results. For instance, we might have the analysis like: Asians are critically affected by BMI factor to have diabetes while Blacks are less influenced by BMI factor.
   - Comparing with the other countries' data of diabetes could give new insights regarding correlation between factors and diabetes. 
