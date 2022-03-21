@@ -46,7 +46,7 @@
  ### Results 
  
   #### [Multiple Logistics Regression]
-We use logistic regression because diabetes is the binary response variable with multiple independent variables. We checked basic assumptions that logistic requires. The correlation coefficients between independent variable we selected are less than 0.5. Thus, there is no strong multicollinearity. We also removed influential outliers through data cleaning, not to mention that the sample size we have is large enough. This indicates logistics regression is the method we need to analyze the data.
+We use logistic regression because diabetes is the binary response variable with multiple independent variables. We checked basic assumptions that logistic regression requires. The correlation coefficients between independent variable we selected are less than 0.5. Thus, there is no strong multicollinearity. We also removed influential outliers through data cleaning, not to mention that the sample size we have is large enough. This indicates logistics regression is the method we need to analyze the data.
 
 <img width="417" alt="logit result" src="https://user-images.githubusercontent.com/97976503/159059404-6d90cbf5-1d2b-4259-99f9-beabdec79838.png">
 
