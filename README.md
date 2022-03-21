@@ -50,6 +50,19 @@ We use logistic regression because diabetes is the binary response variable with
 
 <img width="417" alt="logit result" src="https://user-images.githubusercontent.com/97976503/159059404-6d90cbf5-1d2b-4259-99f9-beabdec79838.png">
 
+##### Notations of the table
+**bmi**:: body mass index   
+**physhlth**::: number of days not feeling in good physical conditions in the past 30 days   
+**michd**::: respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)   
+**hchol**::: high cholesterol status (no=0, yes=1)  
+**hblpr**::: high blood pressure status (no=0, yes=1)  
+**vpa**::: vigourous physical activities (minutes/week)   
+**hvdr**::: heavy drinker status (no=0, yes=1)   
+**smok**::: smoking status (no=0, yes=1)   
+**incom50**::: annual income status (<$50,000=0, >=$50,000=1)   
+**cllgr**::: college/technical School Graduation Status (no=0, yes=1)   
+**sex**::: gender (men=0, women = 1)   
+
   #### [To see how well a logistic regression model fits a dataset]
 
 ![ROC curve](https://user-images.githubusercontent.com/97976503/159059710-539d96fa-96b7-4d9d-a18d-5ad23ba68a89.png)
