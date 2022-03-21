@@ -88,11 +88,11 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
 
 #### Conclusion
 
-  - What lifestyle factors, such as physical exercise, smoking/alcohol, are most related to diabetes?
-    * Earning annual income of $ 50,000 or more is the most related lifestyle factor to prevent diabetes.
+  - What lifestyle factors, such as physical exercise, smoking/alcohol, are most related to diabetes?   
+    → Earning annual income of $ 50,000 or more is the most related lifestyle factor to prevent diabetes.
 
-  - What medical risk factors are most related to diabetes? 
-    * High blood pressure is the most related risk factor to have diabetes.
+  - What medical risk factors are most related to diabetes?   
+    → High blood pressure is the most related risk factor to have diabetes.
 
 
 ### Limitations of the data and the analysis
