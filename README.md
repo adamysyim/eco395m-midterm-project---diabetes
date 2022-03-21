@@ -75,14 +75,13 @@ The closer area under the curve(AUC) is to 1, the better the model. And our mode
 
 Odd ratio roughly means that the statistical tendency of diabetes with the specific factor is greater by the probability of the value than the tendency of non-diabetes without the specific factor. 
 
-### Findings 
- #### From the Odd Ratios
- ##### Medical Risk Factors
+### Findings from the Odd Ratios
+ #### Medical Risk Factors
   - There is 1.56 times tendency of having diabetes if you have heart conditions(michd). 
   - There is 1.80 times tendency of having diabetes if you have high cholesterol(hchol).
   - There is 2.37 times tendency of having diabetes if you have high blood pressure(hblpr).
 
-##### Lifestyle Factors
+#### Lifestyle Factors
   - There is 0.48 times tendency of having diabetes if you earn annual income of $ 50,000 or more(incom50).
   - There is 0.60 times tendency of having diabetes if you have higher education of bachelor or more(cllgr).
 
