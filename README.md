@@ -75,7 +75,7 @@ The closer area under the curve(AUC) is to 1, the better the model. And our mode
 
 Odd ratio roughly means that the statistical tendency of diabetes with the specific factor is greater by the probability of the value than the tendency of non-diabetes without the specific factor. 
 
-### Findings from Odd Ratios
+### Findings from Odd Ratio
  #### Medical Risk Factors
   - There is 1.56 times tendency of having diabetes if you have heart conditions(michd). 
   - There is 1.80 times tendency of having diabetes if you have high cholesterol(hchol).
