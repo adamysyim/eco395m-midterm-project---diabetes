@@ -1,6 +1,6 @@
 # eco395m-midterm-project---diabetes---Group DIB
 
-## Group Members
+## Group DIB
 - Ashesh Shrestha
 - Rishab Agarwal
 - Seungwoon Shin
@@ -156,6 +156,7 @@ Odds ratio roughly means that the statistical tendency of diabetes with the spec
 1. Install all the required packages, modules, and toolkits listed in **requirements.txt** file in the terminal. Using ```Python pip install (packageName)``` command to install.
 
 #### Step0 Variable Selection & Data Overlook
+
 1. Based on the codebook and our common sense, we manually selected 14 variables (including 1 dependent variable and 13 independent variables candidates). The detailed information for the 14 variables are shown in the **step_0_list_of_selected_variable.csv** file in **data** folder.
 2. Run **step_0_data_overlook.ipynb** in **code** folder. You will get the overlook of the categorical variables in the whole uncleaned original dataset.
 
