@@ -49,7 +49,7 @@ The data is collected from a survey:
   * What lifestyle factors, such as food intake, physical exercise, smoking/alchohol, are most related to diabetes (including pre-diabetes)?  
 
 
-## Methodology of the Analysis
+## Methodology and Descrption of the Analysis
 - Step_0: to see the overall picture of diabetes, we selected several variables regarding demograhy, lifestyle factors, and the related medical conditions, and constructed basic plots. We witnessed that some patterns or correlations between diabetes and those variables. 
 - Step_1: based on the overall picture of the data, we concluded that those tentative variables are worth analyzed to answer our research questions. We cleaned the data by dropping missing values, ambiguous answers such as 'don't know', we came up with 1 dependent variable and 13 independent variables. Since all of the answers in the original survey questions are designed for the respondents to answer with numerical or categorical numbers, we then further renamed and reorganized the each variables to fit the statistical model we were going to use. 
 - Step_2: Also, by looking at detailed statistics of each variables, we excluded potential invalid samples. Finally, the total number of respondents(rows) is 211,319. You can see the summary statistics including stacked bar graphs in the code.   
@@ -59,14 +59,16 @@ The data is collected from a survey:
   * perform multiple logitstics regression with all the 13 selected variables for better fitting of the categorical dependent variable, and use taining and testing groups in machine learning to perform the validation test (check AUC value and ROC curve)
   * drop the independent variables which do not have significant coefficients at 5% level of significance, and re-perform the multiple logitstics regression with the rest variables, and use taining and testing groups in machine learning to perform the validation test (check AUC value and ROC curve)
   * extensions: test additional ensemble methods for prediction, including bootstrap aggregating/bagging classifier, random forest, and gradient boosting
-
+- Result: The final logistics regression model would be one of the best models fit the cleaned dataset. The gradient boosting method in extensions is comparable.
 
 ## Results and Findings of the Analysis
 
  ### Results 
  
   #### [Multiple Logistics Regression]
-We use logistic regression because diabetes is the binary response variable with multiple independent variables. We checked basic assumptions that logistic regression requires. The correlation coefficients between independent variable we selected are less than 0.5. Thus, there is no strong multicollinearity. We also removed influential outliers through data cleaning, not to mention that the sample size we have is large enough. This indicates logistics regression is the method we need to analyze the data. Below is the regression result of the final improved multiple logistics regression model:
+We use logistic regression because diabetes is the binary response variable with multiple independent variables. We checked basic assumptions that logistic regression requires. The correlation coefficients between independent variable we selected are less than 0.5. The VIF for all the independent variables are smaller than 2. Thus, there is no strong multicollinearity in independent variables. We also removed influential outliers through data cleaning, not to mention that the sample size we have is large enough. This indicates logistics regression is the method we need to analyze the data. 
+
+Below is the regression result of the final improved multiple logistics regression model:
 
 <img width="417" alt="logit result" src="https://user-images.githubusercontent.com/97976503/159059404-6d90cbf5-1d2b-4259-99f9-beabdec79838.png">
 
@@ -85,7 +87,7 @@ We use logistic regression because diabetes is the binary response variable with
 | **cllgr**     | scollege/technical School Graduation Status (no=0, yes=1)  | categorical|
 | **sex**       | gender (men=0, women=1)                                    | categorical|
 
-###### Note that two independent variables were dropped since they were not significant in the first logistics regression model.
+##### Note that two independent variables are dropped in this final regression model since they were not significant in the first logistics regression model.
 
   #### [To see how well a logistic regression model fits a dataset]
 
@@ -97,9 +99,9 @@ We set up the training group and test group to perform machine learning based on
 
 <img width="167" alt="odd ratio" src="https://user-images.githubusercontent.com/97976503/159067662-bcfe4ad5-c322-42f3-a9eb-a6fe4b25437e.png">
 
-Odd ratio roughly means that the statistical tendency of diabetes with the specific factor is greater by the probability of the value than the tendency of non-diabetes without the specific factor. 
+Odds ratio roughly means that the statistical tendency of diabetes with the specific factor is greater by the probability of the value than the tendency of non-diabetes without the specific factor. 
 
- ### Findings from Odds Ratio
+ ### Documented Findings from Odds Ratio
  
   #### Medical Risk Factors
    - There is 1.56 times tendency of having diabetes if you have heart conditions(michd). 
@@ -130,7 +132,7 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
   - Odd ratio is not the same as the concept of relative risk. While relative risk compares probabilities which implying causality, odd ratio is limited to show causality in a sense that it is about the tendency of the probability between two groups. This is largely because the data itself cannot represent the whole population. Therefore, the findings above cannot be used to elucidate causality of having diabetes. Namely, the conclusion is not perfect answer to research questions.
 
 
-## Suggestion to improve the analysis for the future research 
+## Suggestion to Improve the Analysis for Future Research 
   - According to the Odds Ratio, drinking(hvdr) and smoking(smok) seem to have reverse relationship with the diabetes. However, many medical studies show the opposite: if you drink or smoke, you would have higher chance of getting diabetes. The reverse relationship we obtained is due to the features of our cross-sectional data: cross-sectional data is simply a snapshot of samples in certain point in time. In order to elaborately examine the relationship, we need a follow-up studies which traces smoking or alcohol intake behaviors of the subjects for certain time periods.
   - The same data that added racial factors could show interesting results. For instance, we might have the analysis like: Asians are critically affected by BMI factor to have diabetes while Blacks are less influenced by BMI factor.
   - Comparing with the other countries' data of diabetes could give new insights regarding correlation between factors and diabetes. 
@@ -151,7 +153,7 @@ Odd ratio roughly means that the statistical tendency of diabetes with the speci
 3. The XPT file is 1.29 GB big. When you import and run the file, please make sure your GCP Vertex AI environment can handle the size of the file.
 
 #### Requirements of Python Packages, Modules, and Toolkits
-1. Install all the required packages, modules, and toolkits listed in **requirements.txt** file in the terminal.
+1. Install all the required packages, modules, and toolkits listed in **requirements.txt** file in the terminal. Using ```Python pip install (packageName)``` command to install.
 
 #### Step0 Variable Selection & Data Overlook
 1. Based on the codebook and our common sense, we manually selected 14 variables (including 1 dependent variable and 13 independent variables candidates). The detailed information for the 14 variables are shown in the **step_0_list_of_selected_variable.csv** file in **data** folder.
