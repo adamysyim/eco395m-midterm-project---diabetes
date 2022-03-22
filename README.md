@@ -27,7 +27,7 @@
 
 
 ## Limitations of the Dataset
-- The data is collected from a survey:
+The data is collected from a survey:
 - There is always a risk that people will provide dishonest answers.
 - There can be differences in how people understand the survey questions.
 - Some respondents will choose answers before reading the questions.
@@ -71,6 +71,19 @@ We use logistic regression because diabetes is the binary response variable with
 <img width="417" alt="logit result" src="https://user-images.githubusercontent.com/97976503/159059404-6d90cbf5-1d2b-4259-99f9-beabdec79838.png">
 
 ##### Notations of the table
+| Variable Name | Description                                                | Variable Type            |
+| :---          |    :----:                                                  |          ---:            |
+| **diabete**   | diabetes and pre-diabetes status (no=0, yes=1).            | categorical, dependent   |
+| **bmi**       | body mass index                                            | numerical, independent   |
+| **physhlth**  | number of days not feeling in good physical conditions in the past 30 days | numerical, independent |
+| :---          |    :----:                                                  |          ---:            |
+| **diabete**   | diabetes and pre-diabetes status (no=0, yes=1).            | categorical, dependent   |
+| :---          |    :----:                                                  |          ---:            |
+| Variable Name | Description                                                | Variable Type            |
+| :---          |    :----:                                                  |          ---:            |
+| **diabete**   | diabetes and pre-diabetes status (no=0, yes=1).            | categorical, dependent   |
+| :---          |    :----:                                                  |          ---:            |
+
 **diabete**::: diabetes and pre-diabetes status (no=0, yes=1)   
 **bmi**:: body mass index   
 **physhlth**::: number of days not feeling in good physical conditions in the past 30 days   
