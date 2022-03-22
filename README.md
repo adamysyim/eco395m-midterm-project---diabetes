@@ -1,4 +1,4 @@
-# eco395m-midterm-project---diabetes
+# eco395m-midterm-project---diabetes---Group DIB
 
 ## Group Members
 - Ashesh Shrestha
