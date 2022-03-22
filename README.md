@@ -73,17 +73,17 @@ We use logistic regression because diabetes is the binary response variable with
 ##### Notations of the table
 | Variable Name | Description                                                | Variable Type            |
 | :---          |    :----:                                                  |          ---:            |
-| **bmi**       | body mass index                                            | numerical, independent   |
-| **physhlth**  | number of days not feeling in good physical conditions in the past 30 days | numerical, independent |
-| **michd**     | respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)|categorical, independent|
-| **hchol**     | high cholesterol status (no=0, yes=1)                      | categorical, independent |
-| **hblpr**     | high blood pressure status (no=0, yes=1)                   | categorical, independent |
-| **vpa**       | vigourous physical activities (minutes/week)               | numerical, independent   |
-| **hvdr**      | heavy drinker status (no=0, yes=1)                         | categorical, independent |
-| **smok**      | smoking status (no=0, yes=1)                               | categorical, independent |
-| **incom50**   | annual income status (<$50,000=0, >=$50,000=1)             | categorical, independent |
-| **cllgr**     | scollege/technical School Graduation Status (no=0, yes=1)  | categorical, independent |
-| **sex**       | gender (men=0, women=1)                                    | categorical, independent |
+| **bmi**       | body mass index                                            | numerical   |
+| **physhlth**  | number of days not feeling in good physical conditions in the past 30 days | numerical |
+| **michd**     | respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)|categorical|
+| **hchol**     | high cholesterol status (no=0, yes=1)                      | categorical|
+| **hblpr**     | high blood pressure status (no=0, yes=1)                   | categorical|
+| **vpa**       | vigourous physical activities (minutes/week)               | numerical|
+| **hvdr**      | heavy drinker status (no=0, yes=1)                         | categorical|
+| **smok**      | smoking status (no=0, yes=1)                               | categorical|
+| **incom50**   | annual income status (<$50,000=0, >=$50,000=1)             | categorical|
+| **cllgr**     | scollege/technical School Graduation Status (no=0, yes=1)  | categorical|
+| **sex**       | gender (men=0, women=1)                                    | categorical|
 
 ###### Note that two independent variables were dropped since they were not significant in the first logistics regression model.
 
