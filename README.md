@@ -66,42 +66,32 @@ The data is collected from a survey:
  ### Results 
  
   #### [Multiple Logistics Regression]
-We use logistic regression because diabetes is the binary response variable with multiple independent variables. We checked basic assumptions that logistic regression requires. The correlation coefficients between independent variable we selected are less than 0.5. Thus, there is no strong multicollinearity. We also removed influential outliers through data cleaning, not to mention that the sample size we have is large enough. This indicates logistics regression is the method we need to analyze the data.
+We use logistic regression because diabetes is the binary response variable with multiple independent variables. We checked basic assumptions that logistic regression requires. The correlation coefficients between independent variable we selected are less than 0.5. Thus, there is no strong multicollinearity. We also removed influential outliers through data cleaning, not to mention that the sample size we have is large enough. This indicates logistics regression is the method we need to analyze the data. Below is the regression result of the final improved multiple logistics regression model:
 
 <img width="417" alt="logit result" src="https://user-images.githubusercontent.com/97976503/159059404-6d90cbf5-1d2b-4259-99f9-beabdec79838.png">
 
 ##### Notations of the table
 | Variable Name | Description                                                | Variable Type            |
 | :---          |    :----:                                                  |          ---:            |
-| **diabete**   | diabetes and pre-diabetes status (no=0, yes=1).            | categorical, dependent   |
 | **bmi**       | body mass index                                            | numerical, independent   |
 | **physhlth**  | number of days not feeling in good physical conditions in the past 30 days | numerical, independent |
-| :---          |    :----:                                                  |          ---:            |
-| **diabete**   | diabetes and pre-diabetes status (no=0, yes=1).            | categorical, dependent   |
-| :---          |    :----:                                                  |          ---:            |
-| Variable Name | Description                                                | Variable Type            |
-| :---          |    :----:                                                  |          ---:            |
-| **diabete**   | diabetes and pre-diabetes status (no=0, yes=1).            | categorical, dependent   |
-| :---          |    :----:                                                  |          ---:            |
+| **michd**     | respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)|categorical, independent|
+| **hchol**     | high cholesterol status (no=0, yes=1)                      | categorical, independent |
+| **hblpr**     | high blood pressure status (no=0, yes=1)                   | categorical, independent |
+| **vpa**       | vigourous physical activities (minutes/week)               | numerical, independent   |
+| **hvdr**      | heavy drinker status (no=0, yes=1)                         | categorical, independent |
+| **smok**      | smoking status (no=0, yes=1)                               | categorical, independent |
+| **incom50**   | annual income status (<$50,000=0, >=$50,000=1)             | categorical, independent |
+| **cllgr**     | scollege/technical School Graduation Status (no=0, yes=1)  | categorical, independent |
+| **sex**       | gender (men=0, women=1)                                    | categorical, independent |
 
-**diabete**::: diabetes and pre-diabetes status (no=0, yes=1)   
-**bmi**:: body mass index   
-**physhlth**::: number of days not feeling in good physical conditions in the past 30 days   
-**michd**::: respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)   
-**hchol**::: high cholesterol status (no=0, yes=1)  
-**hblpr**::: high blood pressure status (no=0, yes=1)  
-**vpa**::: vigourous physical activities (minutes/week)   
-**hvdr**::: heavy drinker status (no=0, yes=1)   
-**smok**::: smoking status (no=0, yes=1)   
-**incom50**::: annual income status (<$50,000=0, >=$50,000=1)   
-**cllgr**::: college/technical School Graduation Status (no=0, yes=1)   
-**sex**::: gender (men=0, women=1)   
+###### Note that two independent variables were dropped since they were not significant in the first logistics regression model.
 
   #### [To see how well a logistic regression model fits a dataset]
 
 ![ROC curve](https://user-images.githubusercontent.com/97976503/159059710-539d96fa-96b7-4d9d-a18d-5ad23ba68a89.png)
 
-The closer area under the curve(AUC) is to 1, the better the model. And our model's AUC has 0.77 which is good. 
+We set up the training group and test group to perform machine learning based on the logistics regression model we have. Then we calculate the AUC value and the ROC curve. The closer area under the curve (AUC) is to 1, the better the model. And our model's AUC has 0.77 which is good. 
 
   #### [Odds Ratio] 
 
