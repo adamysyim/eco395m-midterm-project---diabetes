@@ -1,6 +1,6 @@
 # eco395m-midterm-project---diabetes
 
-## Group Members
+## Group DIB
 - Ashesh Shrestha
 - Rishab Agarwal
 - Seungwoon Shin
